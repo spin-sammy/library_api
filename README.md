@@ -47,7 +47,7 @@ library_api/
 
 ---
 
-## Installation (Locally or Docker)
+## Installation
 
 ### 1. Clone the repo
 ```bash
@@ -84,8 +84,17 @@ docker-compose exec web pytest
 ### 2. With coverage
 ```bash
 docker-compose exec web coverage run -m pytest
-coverage report -m
 ```
+View report:
+```
+docker-compose exec web coverage report -m
+```
+
+Generate a detailed web report:
+```bash
+docker-compose exec web coverage html
+```
+It will be available in the folder: `library/htmlcov/index.html`
 
 ---
 
