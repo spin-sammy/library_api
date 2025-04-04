@@ -1,6 +1,6 @@
-# 📚 Library API
+#  Library API
 
-A modern, production-ready REST API for managing books in a digital library. Built with **Django 5**, **Django REST Framework**, **PostgreSQL**, and powered by **Docker**.
+A modern, REST API for managing books in a digital library. Built with **Django 5**, **Django REST Framework**, **PostgreSQL**, and powered by **Docker**.
 
 ---
 
@@ -52,7 +52,7 @@ library_api/
 ### 1. Clone the repo
 ```bash
 git clone https://github.com/spin-sammy/library_api.git
-cd library-api
+cd library_api
 ```
 
 ### 2. Set up environment
