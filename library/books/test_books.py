@@ -106,6 +106,7 @@ def test_update_book(api_client, sample_book):
 @pytest.mark.django_db
 def test_delete_book(api_client, sample_book):
     """Test deleting an existing book."""
+    print(sample_book)
     response = api_client.delete(f'/api/books/{sample_book.id}/')
     assert response.status_code == status.HTTP_204_NO_CONTENT
 
